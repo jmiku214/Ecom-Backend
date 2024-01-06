@@ -1,0 +1,781 @@
+[2023-02-09 14:41:31] ---------- Ubuntu v22.4 (/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/ironpdfengine.log) ----------
+[2023-02-09 14:41:31] Using deployment directory '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/'
+[2023-02-09 14:41:31] Creating deployment candidates using root path '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/' (download: False; embedded: False)
+[2023-02-09 14:41:31] Creating folder deployments for linux-x64
+[2023-02-09 14:41:31] Successfully located 'IronInterop' at '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:41:31] Determining deployment commands for platform 'Ubuntu' v22.4
+[2023-02-09 14:41:31] Using deployment instructions for 'ubuntu' v22
+[2023-02-09 14:41:31] Executing command 'ldd libcef.so' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:41:31] 	linux-vdso.so.1 (0x00007ffee14d4000)
+	libdl.so.2 => /lib/x86_64-linux-gnu/libdl.so.2 (0x00007f53fa25d000)
+	libpthread.so.0 => /lib/x86_64-linux-gnu/libpthread.so.0 (0x00007f53fa258000)
+	libgobject-2.0.so.0 => /lib/x86_64-linux-gnu/libgobject-2.0.so.0 (0x00007f53fa1f8000)
+	libglib-2.0.so.0 => /lib/x86_64-linux-gnu/libglib-2.0.so.0 (0x00007f53fa0be000)
+	libnss3.so => /lib/x86_64-linux-gnu/libnss3.so (0x00007f53f9f91000)
+	libnssutil3.so => /lib/x86_64-linux-gnu/libnssutil3.so (0x00007f53f9f5d000)
+	libsmime3.so => /lib/x86_64-linux-gnu/libsmime3.so (0x00007f53f9f33000)
+	libnspr4.so => /lib/x86_64-linux-gnu/libnspr4.so (0x00007f53f9ef3000)
+	libatk-1.0.so.0 => /lib/x86_64-linux-gnu/libatk-1.0.so.0 (0x00007f53f9ec9000)
+	libatk-bridge-2.0.so.0 => /lib/x86_64-linux-gnu/libatk-bridge-2.0.so.0 (0x00007f53f9e91000)
+	libcups.so.2 => /lib/x86_64-linux-gnu/libcups.so.2 (0x00007f53f9df3000)
+	libdrm.so.2 => /lib/x86_64-linux-gnu/libdrm.so.2 (0x00007f53f9ddb000)
+	libgio-2.0.so.0 => /lib/x86_64-linux-gnu/libgio-2.0.so.0 (0x00007f53f9c03000)
+	libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007f53f9b1c000)
+	libX11.so.6 => /lib/x86_64-linux-gnu/libX11.so.6 (0x00007f53f99dc000)
+	libXcomposite.so.1 => /lib/x86_64-linux-gnu/libXcomposite.so.1 (0x00007f53f99d7000)
+	libXdamage.so.1 => /lib/x86_64-linux-gnu/libXdamage.so.1 (0x00007f53f99d2000)
+	libXext.so.6 => /lib/x86_64-linux-gnu/libXext.so.6 (0x00007f53f99bb000)
+	libXfixes.so.3 => /lib/x86_64-linux-gnu/libXfixes.so.3 (0x00007f53f99b3000)
+	libXrandr.so.2 => /lib/x86_64-linux-gnu/libXrandr.so.2 (0x00007f53f99a6000)
+	libgbm.so.1 => /lib/x86_64-linux-gnu/libgbm.so.1 (0x00007f53f9995000)
+	libexpat.so.1 => /lib/x86_64-linux-gnu/libexpat.so.1 (0x00007f53f9964000)
+	libxcb.so.1 => /lib/x86_64-linux-gnu/libxcb.so.1 (0x00007f53f993a000)
+	libxkbcommon.so.0 => /lib/x86_64-linux-gnu/libxkbcommon.so.0 (0x00007f53f98f1000)
+	libdbus-1.so.3 => /lib/x86_64-linux-gnu/libdbus-1.so.3 (0x00007f53f98a3000)
+	libpango-1.0.so.0 => /lib/x86_64-linux-gnu/libpango-1.0.so.0 (0x00007f53f983c000)
+	libcairo.so.2 => /lib/x86_64-linux-gnu/libcairo.so.2 (0x00007f53f9714000)
+	libasound.so.2 => /lib/x86_64-linux-gnu/libasound.so.2 (0x00007f53f9611000)
+	libatspi.so.0 => /lib/x86_64-linux-gnu/libatspi.so.0 (0x00007f53f95d7000)
+	libgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007f53f95b5000)
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f53f938d000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007f54060da000)
+	libffi.so.8 => /lib/x86_64-linux-gnu/libffi.so.8 (0x00007f53f9380000)
+	libpcre.so.3 => /lib/x86_64-linux-gnu/libpcre.so.3 (0x00007f53f930a000)
+	libplc4.so => /lib/x86_64-linux-gnu/libplc4.so (0x00007f53f9303000)
+	libplds4.so => /lib/x86_64-linux-gnu/libplds4.so (0x00007f53f92fe000)
+	libgssapi_krb5.so.2 => /lib/x86_64-linux-gnu/libgssapi_krb5.so.2 (0x00007f53f92a8000)
+	libavahi-common.so.3 => /lib/x86_64-linux-gnu/libavahi-common.so.3 (0x00007f53f929a000)
+	libavahi-client.so.3 => /lib/x86_64-linux-gnu/libavahi-client.so.3 (0x00007f53f9286000)
+	libgnutls.so.30 => /lib/x86_64-linux-gnu/libgnutls.so.30 (0x00007f53f909b000)
+	libz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x00007f53f907f000)
+	libgmodule-2.0.so.0 => /lib/x86_64-linux-gnu/libgmodule-2.0.so.0 (0x00007f53f9076000)
+	libmount.so.1 => /lib/x86_64-linux-gnu/libmount.so.1 (0x00007f53f9032000)
+	libselinux.so.1 => /lib/x86_64-linux-gnu/libselinux.so.1 (0x00007f53f9006000)
+	libXrender.so.1 => /lib/x86_64-linux-gnu/libXrender.so.1 (0x00007f53f8ff9000)
+	libwayland-server.so.0 => /lib/x86_64-linux-gnu/libwayland-server.so.0 (0x00007f53f8fe3000)
+	libXau.so.6 => /lib/x86_64-linux-gnu/libXau.so.6 (0x00007f53f8fdb000)
+	libXdmcp.so.6 => /lib/x86_64-linux-gnu/libXdmcp.so.6 (0x00007f53f8fd3000)
+	libsystemd.so.0 => /lib/x86_64-linux-gnu/libsystemd.so.0 (0x00007f53f8f0c000)
+	libfribidi.so.0 => /lib/x86_64-linux-gnu/libfribidi.so.0 (0x00007f53f8ef0000)
+	libthai.so.0 => /lib/x86_64-linux-gnu/libthai.so.0 (0x00007f53f8ee5000)
+	libharfbuzz.so.0 => /lib/x86_64-linux-gnu/libharfbuzz.so.0 (0x00007f53f8e16000)
+	libpixman-1.so.0 => /lib/x86_64-linux-gnu/libpixman-1.so.0 (0x00007f53f8d69000)
+	libfontconfig.so.1 => /lib/x86_64-linux-gnu/libfontconfig.so.1 (0x00007f53f8d1f000)
+	libfreetype.so.6 => /lib/x86_64-linux-gnu/libfreetype.so.6 (0x00007f53f8c57000)
+	libpng16.so.16 => /lib/x86_64-linux-gnu/libpng16.so.16 (0x00007f53f8c1c000)
+	libxcb-shm.so.0 => /lib/x86_64-linux-gnu/libxcb-shm.so.0 (0x00007f53f8c17000)
+	libxcb-render.so.0 => /lib/x86_64-linux-gnu/libxcb-render.so.0 (0x00007f53f8c08000)
+	libXi.so.6 => /lib/x86_64-linux-gnu/libXi.so.6 (0x00007f53f8bf2000)
+	libkrb5.so.3 => /lib/x86_64-linux-gnu/libkrb5.so.3 (0x00007f53f8b27000)
+	libk5crypto.so.3 => /lib/x86_64-linux-gnu/libk5crypto.so.3 (0x00007f53f8af8000)
+	libcom_err.so.2 => /lib/x86_64-linux-gnu/libcom_err.so.2 (0x00007f53f8af2000)
+	libkrb5support.so.0 => /lib/x86_64-linux-gnu/libkrb5support.so.0 (0x00007f53f8ae4000)
+	libp11-kit.so.0 => /lib/x86_64-linux-gnu/libp11-kit.so.0 (0x00007f53f89a7000)
+	libidn2.so.0 => /lib/x86_64-linux-gnu/libidn2.so.0 (0x00007f53f8986000)
+	libunistring.so.2 => /lib/x86_64-linux-gnu/libunistring.so.2 (0x00007f53f87dc000)
+	libtasn1.so.6 => /lib/x86_64-linux-gnu/libtasn1.so.6 (0x00007f53f87c4000)
+	libnettle.so.8 => /lib/x86_64-linux-gnu/libnettle.so.8 (0x00007f53f877e000)
+	libhogweed.so.6 => /lib/x86_64-linux-gnu/libhogweed.so.6 (0x00007f53f8736000)
+	libgmp.so.10 => /lib/x86_64-linux-gnu/libgmp.so.10 (0x00007f53f86b2000)
+	libblkid.so.1 => /lib/x86_64-linux-gnu/libblkid.so.1 (0x00007f53f867b000)
+	libpcre2-8.so.0 => /lib/x86_64-linux-gnu/libpcre2-8.so.0 (0x00007f53f85e4000)
+	libbsd.so.0 => /lib/x86_64-linux-gnu/libbsd.so.0 (0x00007f53f85cc000)
+	liblzma.so.5 => /lib/x86_64-linux-gnu/liblzma.so.5 (0x00007f53f85a1000)
+	libzstd.so.1 => /lib/x86_64-linux-gnu/libzstd.so.1 (0x00007f53f84d0000)
+	liblz4.so.1 => /lib/x86_64-linux-gnu/liblz4.so.1 (0x00007f53f84b0000)
+	libcap.so.2 => /lib/x86_64-linux-gnu/libcap.so.2 (0x00007f53f84a5000)
+	libgcrypt.so.20 => /lib/x86_64-linux-gnu/libgcrypt.so.20 (0x00007f53f8367000)
+	libdatrie.so.1 => /lib/x86_64-linux-gnu/libdatrie.so.1 (0x00007f53f835e000)
+	libgraphite2.so.3 => /lib/x86_64-linux-gnu/libgraphite2.so.3 (0x00007f53f8337000)
+	libuuid.so.1 => /lib/x86_64-linux-gnu/libuuid.so.1 (0x00007f53f832c000)
+	libbrotlidec.so.1 => /lib/x86_64-linux-gnu/libbrotlidec.so.1 (0x00007f53f831e000)
+	libkeyutils.so.1 => /lib/x86_64-linux-gnu/libkeyutils.so.1 (0x00007f53f8317000)
+	libresolv.so.2 => /lib/x86_64-linux-gnu/libresolv.so.2 (0x00007f53f8303000)
+	libmd.so.0 => /lib/x86_64-linux-gnu/libmd.so.0 (0x00007f53f82f6000)
+	libgpg-error.so.0 => /lib/x86_64-linux-gnu/libgpg-error.so.0 (0x00007f53f82ce000)
+	libbrotlicommon.so.1 => /lib/x86_64-linux-gnu/libbrotlicommon.so.1 (0x00007f53f82ab000)
+
+[2023-02-09 14:41:31] Executing command 'ldd IronInterop.so' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:41:31] 	linux-vdso.so.1 (0x00007ffd6f5a2000)
+	libcef.so => not found
+	libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007f2ae0fad000)
+	libpthread.so.0 => /lib/x86_64-linux-gnu/libpthread.so.0 (0x00007f2ae0fa8000)
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f2ae01d8000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007f2ae10a7000)
+
+[2023-02-09 14:41:31] Executing command 'whereis IronInterop.so' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:41:31] IronInterop.so:
+
+[2023-02-09 14:41:31] Executing command 'apt update' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:41:31] Reading package lists...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock directory /var/lib/apt/lists/
+W: Problem unlinking the file /var/cache/apt/pkgcache.bin - RemoveCaches (13: Permission denied)
+W: Problem unlinking the file /var/cache/apt/srcpkgcache.bin - RemoveCaches (13: Permission denied)
+
+[2023-02-09 14:41:31] Executing command 'apt install -y libc6-dev' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:41:31] 
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+
+[2023-02-09 14:41:31] Executing command 'apt install -y libcups2' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:41:31] 
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+
+[2023-02-09 14:41:31] Executing command 'apt install -y libgtk2.0-0' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:41:31] 
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+
+[2023-02-09 14:41:31] Executing command 'apt install -y libnss3' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:41:31] 
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+
+[2023-02-09 14:41:31] Executing command 'apt install -y libatk-bridge2.0-0' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:41:31] 
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+
+[2023-02-09 14:41:31] Executing command 'apt install -y libx11-xcb1' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:41:31] 
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+
+[2023-02-09 14:41:31] Executing command 'apt install -y libxcb-dri3-0' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:41:31] 
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+
+[2023-02-09 14:41:31] Executing command 'apt install -y libdrm-common' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:41:31] 
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+
+[2023-02-09 14:41:31] Executing command 'apt install -y libgbm1' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:41:32] 
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+
+[2023-02-09 14:41:32] Executing command 'apt install -y libasound2' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:41:32] 
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+
+[2023-02-09 14:41:32] Executing command 'apt install -y libappindicator3-1' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:41:32] 
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+
+[2023-02-09 14:41:32] Executing command 'apt install -y libxrender1' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:41:32] 
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+
+[2023-02-09 14:41:32] Executing command 'apt install -y libfontconfig1' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:41:32] 
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+
+[2023-02-09 14:41:32] Executing command 'apt install -y libxshmfence1' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:41:32] 
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+
+[2023-02-09 14:41:32] Executing command 'apt install -y libva-dev' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:41:32] 
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+
+[2023-02-09 14:41:32] Executing command 'apt install -y libgdiplus' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:41:32] 
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+
+[2023-02-09 14:41:32] Executing command 'apt install -y libva-dev' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:41:32] 
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+
+[2023-02-09 14:41:32] Executing command 'chmod 755 IronCefSubprocess' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:41:32] 
+[2023-02-09 14:41:32] Attempting to load Unix library '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/libcef.so'
+[2023-02-09 14:41:32] Unix library '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/libcef.so' load result 94815120664064
+[2023-02-09 14:41:32] Attempting to load Unix library '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/libcef.so'
+[2023-02-09 14:41:32] Unix library '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/libcef.so' load result 94815120664064
+[2023-02-09 14:41:32] Successfully loaded native library 'libcef' from '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/libcef.so'
+[2023-02-09 14:41:32] Attempting to load Unix library '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/IronInterop.so'
+[2023-02-09 14:41:32] Unix library '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/IronInterop.so' load result 94815121389376
+[2023-02-09 14:41:32] Attempting to load Unix library '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/IronInterop.so'
+[2023-02-09 14:41:32] Unix library '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/IronInterop.so' load result 94815121389376
+[2023-02-09 14:41:32] Successfully loaded native library 'IronInterop' from '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/IronInterop.so'
+[2023-02-09 14:41:32] Successfully loaded 'IronInterop' version '2022.11.0.10299' from '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:41:32] Successfully deployed 'IronPdf' using '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:41:32] Initializing Chrome renderer for OS Name: Ubuntu, Identifier: ubuntu, Version: 22.4, VersionName: , Domain: IronPdfEngine, Thread: , Path: /home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend
+[2023-02-09 14:41:32] 14:41:32 (140128554972992): Detected operating system ubuntu
+[2023-02-09 14:41:32] 14:41:32 (140128554972992): ~ Chrome renderer v2022.11.0.10299~
+[2023-02-09 14:41:32] 14:41:32 (140128554972992): IsSingleProcess: 0
+[2023-02-09 14:41:32] 14:41:32 (140128554972992): Creating Cef proxy controller
+[2023-02-09 14:41:32] 14:41:32 (140128554972992): Creating Cef interface
+[2023-02-09 14:41:32] 14:41:32 (140128554972992): Created new lifespan events
+[2023-02-09 14:41:32] 14:41:32 (140128554972992): Created new browser process handler
+[2023-02-09 14:41:32] 14:41:32 (140128554972992): Created new load handler
+[2023-02-09 14:41:32] 14:41:32 (140128554972992): Created new render handler
+[2023-02-09 14:41:32] 14:41:32 (140128554972992): Created new render process handler
+[2023-02-09 14:41:32] 14:41:32 (140128554972992): Created new print handler
+[2023-02-09 14:41:32] 14:41:32 (140128554972992): Created new dev tools handler
+[2023-02-09 14:41:32] 14:41:32 (140128554972992): Created new dev tools registration factory
+[2023-02-09 14:41:32] 14:41:32 (140128554972992): Created new lifespan handler
+[2023-02-09 14:41:32] 14:41:32 (140128554972992): Assigning Cef proxy controller events...
+[2023-02-09 14:41:32] 14:41:32 (140128554972992): Assigning Cef proxy controller stream provider...
+[2023-02-09 14:41:32] 14:41:32 (140128554972992): Initializing Cef proxy controller
+[2023-02-09 14:41:32] 14:41:32 (140128554972992): Using subprocess path '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/IronCefSubprocess'
+[2023-02-09 14:41:32] 14:41:32 (140128554972992): Using framework path '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:41:32] 14:41:32 (140128554972992): Using locales path '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/locales'
+[2023-02-09 14:41:32] 14:41:32 (140128554972992): Using resources path '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:41:32] 14:41:32 (140128554972992): Process os_name: 'ubuntu'
+[2023-02-09 14:41:32] 14:41:32 (140128554972992): gpu_mode: '0'
+[2023-02-09 14:41:32] 14:41:32 (140128554972992): Launching Main process ' --browser-subprocess-path=/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/IronCefSubprocess --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path=/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native --locales-dir-path=/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/locales --disable-features=BackForwardCache --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-errors --ignore-ssl-errors --ignore-urlfetcher-cert-requests'
+[2023-02-09 14:41:32] 14:41:32 (140128554972992): Process os_name: 'ubuntu'
+[2023-02-09 14:41:32] 14:41:32 (140128554972992): gpu_mode: '0'
+[2023-02-09 14:41:32] 14:41:32 (140128554972992): Launching child process '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/IronCefSubprocess --type=zygote --no-zygote-sandbox --no-sandbox --headless --locales-dir-path=/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/locales --log-severity=disable --resources-dir-path=/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native --lang=en-US --user-data-dir=/tmp --log-file=cef.log --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-errors --ignore-ssl-errors --ignore-urlfetcher-cert-requests'
+[2023-02-09 14:41:32] 14:41:32 (140128554972992): Process os_name: 'ubuntu'
+[2023-02-09 14:41:32] 14:41:32 (140128554972992): gpu_mode: '0'
+[2023-02-09 14:41:32] 14:41:32 (140128554972992): Launching child process '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/IronCefSubprocess --type=zygote --no-sandbox --headless --locales-dir-path=/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/locales --log-severity=disable --resources-dir-path=/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native --lang=en-US --user-data-dir=/tmp --log-file=cef.log --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-errors --ignore-ssl-errors --ignore-urlfetcher-cert-requests'
+[2023-02-09 14:41:32] 14:41:32 (140124544030272): Process os_name: 'ubuntu'
+[2023-02-09 14:41:32] 14:41:32 (140124544030272): gpu_mode: '0'
+[2023-02-09 14:41:32] 14:41:32 (140124544030272): Launching child process '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/IronCefSubprocess --type=gpu-process --no-sandbox --disable-dev-shm-usage --headless --locales-dir-path=/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/locales --log-severity=disable --resources-dir-path=/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native --lang=en-US --user-data-dir=/tmp --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-errors --ignore-ssl-errors --ignore-urlfetcher-cert-requests'
+[2023-02-09 14:41:32] 14:41:32 (140128554972992): Cef initialization succeeded
+[2023-02-09 14:41:32] 14:41:32 (140124544030272): Cef context initialized
+[2023-02-09 14:41:32] 14:41:32 (140124544030272): Registering custom scheme for rendering raw html
+[2023-02-09 14:41:32] 14:41:32 (140124544030272): Successfully registered custom scheme
+[2023-02-09 14:41:32] 14:41:32 (140124544030272): Cef engine initialization complete
+[2023-02-09 14:41:32] 14:41:32 (140124544030272): Process os_name: 'ubuntu'
+[2023-02-09 14:41:32] 14:41:32 (140124544030272): gpu_mode: '0'
+[2023-02-09 14:41:32] 14:41:32 (140124544030272): Launching child process '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/IronCefSubprocess --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-GB --service-sandbox-type=none --ignore-urlfetcher-cert-requests --no-sandbox --disable-dev-shm-usage --ignore-certificate-errors --mute-audio --ignore-certificate-errors --locales-dir-path=/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/locales --log-severity=disable --resources-dir-path=/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native --lang=en-US --user-data-dir=/tmp --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-errors --ignore-ssl-errors --ignore-urlfetcher-cert-requests'
+[2023-02-09 14:41:33] 14:41:33 (140126504027712): Generating pdf from html
+[2023-02-09 14:41:33] 14:41:33 (140126504027712): BROWSER SETTINGS:
+View: 1024x1280
+Enable Javascript: 1
+Username: 
+
+[2023-02-09 14:41:33] 14:41:33 (140126504027712): RENDER SETTINGS:
+Backgrounds: 1, Emulate Screen: 1, Forms: 1, Landscape : 0
+Scale: 100
+Page Size Type: A4
+Custom Page Size: 210x297
+Actual Page Size: 210x297
+Page Margin Type: 3
+Margin Top: 25, Right: 25, Bottom: 25, Left: 25
+Header Html: 
+Footer Html: 
+Javascript: 
+Autosize Screen: 0, PPI: 96
+Title: 
+First Page Number: 1
+Save Path: 
+Render Delay: 500
+Max Header Height: 200, Max Footer Height : 200
+
+[2023-02-09 14:41:33] 14:41:33 (140126504027712): Created new job group 0 for new document
+[2023-02-09 14:41:33] 14:41:33 (140126504027712): Created job group 0
+[2023-02-09 14:41:33] 14:41:33 (140126504027712): Queuing job 0
+[2023-02-09 14:41:33] 14:41:33 (140126504027712): Checking for browser availability (0/30)
+[2023-02-09 14:41:33] 14:41:33 (140126504027712): Creating new browser after waiting 0 seconds
+[2023-02-09 14:41:33] 14:41:33 (140124544030272): Created browser id 1, 1 exist
+[2023-02-09 14:41:33] 14:41:33 (140124544030272): Browser 1 created and ready for assignment
+[2023-02-09 14:41:33] 14:41:33 (140124544030272): Assigning job 0 to browser 1
+[2023-02-09 14:41:33] 14:41:33 (140124544030272): Processing job for html content on browser 1
+[2023-02-09 14:41:33] 14:41:33 (140124544030272): Process os_name: 'ubuntu'
+[2023-02-09 14:41:33] 14:41:33 (140124544030272): gpu_mode: '0'
+[2023-02-09 14:41:33] 14:41:33 (140124544030272): Launching child process '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/IronCefSubprocess --type=renderer --locales-dir-path=/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/locales --log-severity=disable --resources-dir-path=/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native --user-data-dir=/tmp --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-errors --ignore-ssl-errors --ignore-urlfetcher-cert-requests'
+[2023-02-09 14:41:33] 14:41:33 (140124544030272): Process os_name: 'ubuntu'
+[2023-02-09 14:41:33] 14:41:33 (140124544030272): gpu_mode: '0'
+[2023-02-09 14:41:33] 14:41:33 (140124544030272): Launching child process '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/IronCefSubprocess --type=renderer --locales-dir-path=/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/locales --log-severity=disable --resources-dir-path=/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native --user-data-dir=/tmp --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-errors --ignore-ssl-errors --ignore-urlfetcher-cert-requests'
+[2023-02-09 14:41:33] 14:41:33 (140124544030272): Browser 1 loading state changed to 1 for url ''
+[2023-02-09 14:41:33] 14:41:33 (140124306269760): Received resource request from null for http://ironsoftwarescheme.com/ on browser 1 (nav: 1, dl: 0)
+[2023-02-09 14:41:33] 14:41:33 (140124306269760): Resolved resource request using default handler
+[2023-02-09 14:41:33] 14:41:33 (140124306269760): Creating resource handler for custom scheme http using url http://ironsoftwarescheme.com/ on browser 1
+[2023-02-09 14:41:34] 14:41:34 (140124544030272): Browser 1 frame 17179869185 started loading http://ironsoftwarescheme.com/
+[2023-02-09 14:41:34] 14:41:34 (140124306269760): Received resource request from http://ironsoftwarescheme.com for file:///home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/style.css on browser 1 (nav: 0, dl: 0)
+[2023-02-09 14:41:34] 14:41:34 (140124306269760): Resolved resource request using custom handler
+[2023-02-09 14:41:34] 14:41:34 (140124306269760): OnBeforeResourceLoad for file:///home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/style.css on browser 1
+[2023-02-09 14:41:34] 14:41:34 (140124306269760): Error while creating stream reader for resource 'file:///home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/style.css' using path 'home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/style.css'
+[2023-02-09 14:41:34] 14:41:34 (140124306269760): Resource load complete for 'file:///home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/style.css' on browser 1
+[2023-02-09 14:41:34] 14:41:34 (140124306269760): Received resource request from http://ironsoftwarescheme.com for file:///home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/script.js on browser 1 (nav: 0, dl: 0)
+[2023-02-09 14:41:34] 14:41:34 (140124306269760): Resolved resource request using custom handler
+[2023-02-09 14:41:34] 14:41:34 (140124306269760): OnBeforeResourceLoad for file:///home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/script.js on browser 1
+[2023-02-09 14:41:34] 14:41:34 (140124306269760): Error while creating stream reader for resource 'file:///home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/script.js' using path 'home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/script.js'
+[2023-02-09 14:41:34] 14:41:34 (140124306269760): Resource load complete for 'file:///home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/script.js' on browser 1
+[2023-02-09 14:41:34] 14:41:34 (140124544030272): Browser process received message: 'OnBrowserCreated'
+[2023-02-09 14:41:34] 14:41:34 (140124544030272): Received message from render process with values '' (0)
+[2023-02-09 14:41:34] 14:41:34 (140124544030272): Browser 1 frame 17179869185 ended loading http://ironsoftwarescheme.com/
+[2023-02-09 14:41:34] 14:41:34 (140124544030272): Browser 1 loading state changed to 0 for url 'http://ironsoftwarescheme.com/'
+[2023-02-09 14:41:34] 14:41:34 (140124544030272): Frame loaded for job 0 on browser 1
+[2023-02-09 14:41:34] 14:41:34 (140124544030272): Found job 0 in group 0 (of 1 groups)
+[2023-02-09 14:41:34] 14:41:34 (140124544030272): Executing dev tools method 'Emulation.setEmulatedMedia' for browser 1
+[2023-02-09 14:41:34] 14:41:34 (140124544030272): Executing dev tools method 'Page.getLayoutMetrics' for browser 1
+[2023-02-09 14:41:34] 14:41:34 (140124544030272): Received dev tools message on browser 1: '{"id":1,"result":{}}' (size: 20)
+[2023-02-09 14:41:34] 14:41:34 (140124544030272): Finished dev tools method on browser 1 (message ID: 1)
+[2023-02-09 14:41:34] 14:41:34 (140124544030272): Received dev tools message on browser 1: '{"id":2,"result":{"layoutViewport":{"pageX":0,"pageY":0,"clientWidth":1024,"clientHeight":1280},"visualViewport":{"offsetX":0,"offsetY":0,"pageX":0,"pageY":0,"clientWidth":1024,"clientHeight":1280,"scale":1,"zoom":1},"contentSize":{"x":0,"y":0,"width":1024,"height":1280},"cssLayoutViewport":{"pageX":0,"pageY":0,"clientWidth":1024,"clientHeight":1280},"cssVisualViewport":{"offsetX":0,"offsetY":0,"pageX":0,"pageY":0,"clientWidth":1024,"clientHeight":1280,"scale":1,"zoom":1},"cssContentSize":{"x":0,"y":0,"width":1024,"height":1280}}}' (size: 536)
+[2023-02-09 14:41:34] 14:41:34 (140124544030272): Finished dev tools method on browser 1 (message ID: 2)
+[2023-02-09 14:41:34] 14:41:34 (140124544030272): Sending DOM-visit process message for browser 1 (job ID: 0)
+[2023-02-09 14:41:34] 14:41:34 (140124544030272): Browser process received message: 'OnDomVisited'
+[2023-02-09 14:41:34] 14:41:34 (140124544030272): Received message from render process with values 'AQAAAIQAAAAAAAAAAgAAAEQAAAAsAAAAAAAAAAAAAAABAAAAOAAAAAEAAAANAAAAZAAAAG8AAABjAAAAdQAAAG0AAABlAAAAbgAAAHQAAAB0AAAAaQAAAHQAAABsAAAAZQAAAAEAAAAgAAAAAQAAAAcAAABJAAAAbgAAAHYAAABvAAAAaQAAAGMAAABlAAAA' (192)
+[2023-02-09 14:41:34] 14:41:34 (140124544030272): Processed html for browser 1
+[2023-02-09 14:41:34] 14:41:34 (140122745980480): Apply render delay for : 500 ms
+[2023-02-09 14:41:34] 14:41:34 (140122745980480): Finished waiting for render delay
+[2023-02-09 14:41:34] 14:41:34 (140122745980480): Scaling content to paper using a factor of 100
+[2023-02-09 14:41:34] 14:41:34 (140122745980480): Printing from browser to '/tmp/pdf3ip5nn'
+[2023-02-09 14:41:34] 14:41:34 (140124544030272): Received browser print callback for path '/tmp/pdf3ip5nn' (1)
+[2023-02-09 14:41:34] 14:41:34 (140124544030272): Print finished for browser 1(success: 1)
+[2023-02-09 14:41:34] 14:41:34 (140124544030272): Resolving job for browser 1 with 29482 bytes
+[2023-02-09 14:41:34] 14:41:34 (140124544030272): PdfDocumentFactory created document 0x7f71280509b0 from 29482 bytes
+[2023-02-09 14:41:34] 14:41:34 (140124544030272): Resolving job for browser 1 with 1 page document
+[2023-02-09 14:41:34] 14:41:34 (140124544030272): Retrieved document title from html: Invoice
+[2023-02-09 14:41:34] 14:41:34 (140124544030272): Retrieve Html title: Invoice
+[2023-02-09 14:41:34] 14:41:34 (140124544030272): Generating form fields
+[2023-02-09 14:41:34] 14:41:34 (140124544030272): Adding default font for form fields
+[2023-02-09 14:41:34] 14:41:34 (140124544030272): Initializing forms for document
+[2023-02-09 14:41:34] 14:41:34 (140124544030272): Generating bytes for document 0x7f71280509b0
+[2023-02-09 14:41:34] 14:41:34 (140124544030272): Successfully generated 29591 bytes for document 0x7f71280509b0
+[2023-02-09 14:41:34] 14:41:34 (140124544030272): PdfDocumentFactory closed document 0x7f71280509b0
+[2023-02-09 14:41:34] 14:41:34 (140123819722304): Closing browser 1
+[2023-02-09 14:41:34] 14:41:34 (140124544030272): Received dev tools message on browser 1: '{"method":"Inspector.detached","params":{"reason":"Render process gone."}}' (size: 74)
+[2023-02-09 14:41:34] 14:41:34 (140124544030272): Destroying browser id 1, 0 remain
+[2023-02-09 14:41:34] 14:41:34 (140124544030272): Browser 1 closed for job 0
+[2023-02-09 14:41:34] 14:41:34 (140124544030272): Found job 0 in group 0 (of 1 groups)
+[2023-02-09 14:41:34] 14:41:34 (140124544030272): Job group 0 finished
+[2023-02-09 14:41:34] 14:41:34 (140124544030272): CefMessagePumpStd::Quit()
+[2023-02-09 14:41:34] 14:41:34 (140126504027712): PdfDocumentFactory created document 0x563bdd90fb90 from 29591 bytes
+[2023-02-09 14:41:34] 14:41:34 (140126504027712): Storing new document 0
+[2023-02-09 14:44:55] ---------- Ubuntu v22.4 (/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/ironpdfengine.log) ----------
+[2023-02-09 14:44:55] Using deployment directory '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/'
+[2023-02-09 14:44:55] Creating deployment candidates using root path '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/' (download: False; embedded: False)
+[2023-02-09 14:44:55] Creating folder deployments for linux-x64
+[2023-02-09 14:44:55] Successfully located 'IronInterop' at '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:44:55] Determining deployment commands for platform 'Ubuntu' v22.4
+[2023-02-09 14:44:55] Using deployment instructions for 'ubuntu' v22
+[2023-02-09 14:44:55] Executing command 'ldd libcef.so' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:44:55] 	linux-vdso.so.1 (0x00007ffd5450e000)
+	libdl.so.2 => /lib/x86_64-linux-gnu/libdl.so.2 (0x00007f394c443000)
+	libpthread.so.0 => /lib/x86_64-linux-gnu/libpthread.so.0 (0x00007f394c43e000)
+	libgobject-2.0.so.0 => /lib/x86_64-linux-gnu/libgobject-2.0.so.0 (0x00007f394c3de000)
+	libglib-2.0.so.0 => /lib/x86_64-linux-gnu/libglib-2.0.so.0 (0x00007f394c2a4000)
+	libnss3.so => /lib/x86_64-linux-gnu/libnss3.so (0x00007f394c177000)
+	libnssutil3.so => /lib/x86_64-linux-gnu/libnssutil3.so (0x00007f394c143000)
+	libsmime3.so => /lib/x86_64-linux-gnu/libsmime3.so (0x00007f394c119000)
+	libnspr4.so => /lib/x86_64-linux-gnu/libnspr4.so (0x00007f394c0d9000)
+	libatk-1.0.so.0 => /lib/x86_64-linux-gnu/libatk-1.0.so.0 (0x00007f394c0af000)
+	libatk-bridge-2.0.so.0 => /lib/x86_64-linux-gnu/libatk-bridge-2.0.so.0 (0x00007f394c077000)
+	libcups.so.2 => /lib/x86_64-linux-gnu/libcups.so.2 (0x00007f394bfd9000)
+	libdrm.so.2 => /lib/x86_64-linux-gnu/libdrm.so.2 (0x00007f394bfc1000)
+	libgio-2.0.so.0 => /lib/x86_64-linux-gnu/libgio-2.0.so.0 (0x00007f394bde9000)
+	libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007f394bd02000)
+	libX11.so.6 => /lib/x86_64-linux-gnu/libX11.so.6 (0x00007f394bbc2000)
+	libXcomposite.so.1 => /lib/x86_64-linux-gnu/libXcomposite.so.1 (0x00007f394bbbd000)
+	libXdamage.so.1 => /lib/x86_64-linux-gnu/libXdamage.so.1 (0x00007f394bbb8000)
+	libXext.so.6 => /lib/x86_64-linux-gnu/libXext.so.6 (0x00007f394bba1000)
+	libXfixes.so.3 => /lib/x86_64-linux-gnu/libXfixes.so.3 (0x00007f394bb99000)
+	libXrandr.so.2 => /lib/x86_64-linux-gnu/libXrandr.so.2 (0x00007f394bb8c000)
+	libgbm.so.1 => /lib/x86_64-linux-gnu/libgbm.so.1 (0x00007f394bb7b000)
+	libexpat.so.1 => /lib/x86_64-linux-gnu/libexpat.so.1 (0x00007f394bb4a000)
+	libxcb.so.1 => /lib/x86_64-linux-gnu/libxcb.so.1 (0x00007f394bb20000)
+	libxkbcommon.so.0 => /lib/x86_64-linux-gnu/libxkbcommon.so.0 (0x00007f394bad7000)
+	libdbus-1.so.3 => /lib/x86_64-linux-gnu/libdbus-1.so.3 (0x00007f394ba89000)
+	libpango-1.0.so.0 => /lib/x86_64-linux-gnu/libpango-1.0.so.0 (0x00007f394ba22000)
+	libcairo.so.2 => /lib/x86_64-linux-gnu/libcairo.so.2 (0x00007f394b8fa000)
+	libasound.so.2 => /lib/x86_64-linux-gnu/libasound.so.2 (0x00007f394b7f7000)
+	libatspi.so.0 => /lib/x86_64-linux-gnu/libatspi.so.0 (0x00007f394b7bd000)
+	libgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007f394b79b000)
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f394b573000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007f39582c0000)
+	libffi.so.8 => /lib/x86_64-linux-gnu/libffi.so.8 (0x00007f394b566000)
+	libpcre.so.3 => /lib/x86_64-linux-gnu/libpcre.so.3 (0x00007f394b4f0000)
+	libplc4.so => /lib/x86_64-linux-gnu/libplc4.so (0x00007f394b4e9000)
+	libplds4.so => /lib/x86_64-linux-gnu/libplds4.so (0x00007f394b4e4000)
+	libgssapi_krb5.so.2 => /lib/x86_64-linux-gnu/libgssapi_krb5.so.2 (0x00007f394b48e000)
+	libavahi-common.so.3 => /lib/x86_64-linux-gnu/libavahi-common.so.3 (0x00007f394b480000)
+	libavahi-client.so.3 => /lib/x86_64-linux-gnu/libavahi-client.so.3 (0x00007f394b46c000)
+	libgnutls.so.30 => /lib/x86_64-linux-gnu/libgnutls.so.30 (0x00007f394b281000)
+	libz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x00007f394b265000)
+	libgmodule-2.0.so.0 => /lib/x86_64-linux-gnu/libgmodule-2.0.so.0 (0x00007f394b25c000)
+	libmount.so.1 => /lib/x86_64-linux-gnu/libmount.so.1 (0x00007f394b218000)
+	libselinux.so.1 => /lib/x86_64-linux-gnu/libselinux.so.1 (0x00007f394b1ec000)
+	libXrender.so.1 => /lib/x86_64-linux-gnu/libXrender.so.1 (0x00007f394b1df000)
+	libwayland-server.so.0 => /lib/x86_64-linux-gnu/libwayland-server.so.0 (0x00007f394b1c9000)
+	libXau.so.6 => /lib/x86_64-linux-gnu/libXau.so.6 (0x00007f394b1c1000)
+	libXdmcp.so.6 => /lib/x86_64-linux-gnu/libXdmcp.so.6 (0x00007f394b1b9000)
+	libsystemd.so.0 => /lib/x86_64-linux-gnu/libsystemd.so.0 (0x00007f394b0f2000)
+	libfribidi.so.0 => /lib/x86_64-linux-gnu/libfribidi.so.0 (0x00007f394b0d6000)
+	libthai.so.0 => /lib/x86_64-linux-gnu/libthai.so.0 (0x00007f394b0cb000)
+	libharfbuzz.so.0 => /lib/x86_64-linux-gnu/libharfbuzz.so.0 (0x00007f394affc000)
+	libpixman-1.so.0 => /lib/x86_64-linux-gnu/libpixman-1.so.0 (0x00007f394af4f000)
+	libfontconfig.so.1 => /lib/x86_64-linux-gnu/libfontconfig.so.1 (0x00007f394af05000)
+	libfreetype.so.6 => /lib/x86_64-linux-gnu/libfreetype.so.6 (0x00007f394ae3d000)
+	libpng16.so.16 => /lib/x86_64-linux-gnu/libpng16.so.16 (0x00007f394ae02000)
+	libxcb-shm.so.0 => /lib/x86_64-linux-gnu/libxcb-shm.so.0 (0x00007f394adfd000)
+	libxcb-render.so.0 => /lib/x86_64-linux-gnu/libxcb-render.so.0 (0x00007f394adee000)
+	libXi.so.6 => /lib/x86_64-linux-gnu/libXi.so.6 (0x00007f394add8000)
+	libkrb5.so.3 => /lib/x86_64-linux-gnu/libkrb5.so.3 (0x00007f394ad0d000)
+	libk5crypto.so.3 => /lib/x86_64-linux-gnu/libk5crypto.so.3 (0x00007f394acde000)
+	libcom_err.so.2 => /lib/x86_64-linux-gnu/libcom_err.so.2 (0x00007f394acd8000)
+	libkrb5support.so.0 => /lib/x86_64-linux-gnu/libkrb5support.so.0 (0x00007f394acca000)
+	libp11-kit.so.0 => /lib/x86_64-linux-gnu/libp11-kit.so.0 (0x00007f394ab8d000)
+	libidn2.so.0 => /lib/x86_64-linux-gnu/libidn2.so.0 (0x00007f394ab6c000)
+	libunistring.so.2 => /lib/x86_64-linux-gnu/libunistring.so.2 (0x00007f394a9c2000)
+	libtasn1.so.6 => /lib/x86_64-linux-gnu/libtasn1.so.6 (0x00007f394a9aa000)
+	libnettle.so.8 => /lib/x86_64-linux-gnu/libnettle.so.8 (0x00007f394a964000)
+	libhogweed.so.6 => /lib/x86_64-linux-gnu/libhogweed.so.6 (0x00007f394a91c000)
+	libgmp.so.10 => /lib/x86_64-linux-gnu/libgmp.so.10 (0x00007f394a898000)
+	libblkid.so.1 => /lib/x86_64-linux-gnu/libblkid.so.1 (0x00007f394a861000)
+	libpcre2-8.so.0 => /lib/x86_64-linux-gnu/libpcre2-8.so.0 (0x00007f394a7ca000)
+	libbsd.so.0 => /lib/x86_64-linux-gnu/libbsd.so.0 (0x00007f394a7b2000)
+	liblzma.so.5 => /lib/x86_64-linux-gnu/liblzma.so.5 (0x00007f394a787000)
+	libzstd.so.1 => /lib/x86_64-linux-gnu/libzstd.so.1 (0x00007f394a6b6000)
+	liblz4.so.1 => /lib/x86_64-linux-gnu/liblz4.so.1 (0x00007f394a696000)
+	libcap.so.2 => /lib/x86_64-linux-gnu/libcap.so.2 (0x00007f394a68b000)
+	libgcrypt.so.20 => /lib/x86_64-linux-gnu/libgcrypt.so.20 (0x00007f394a54d000)
+	libdatrie.so.1 => /lib/x86_64-linux-gnu/libdatrie.so.1 (0x00007f394a544000)
+	libgraphite2.so.3 => /lib/x86_64-linux-gnu/libgraphite2.so.3 (0x00007f394a51d000)
+	libuuid.so.1 => /lib/x86_64-linux-gnu/libuuid.so.1 (0x00007f394a512000)
+	libbrotlidec.so.1 => /lib/x86_64-linux-gnu/libbrotlidec.so.1 (0x00007f394a504000)
+	libkeyutils.so.1 => /lib/x86_64-linux-gnu/libkeyutils.so.1 (0x00007f394a4fd000)
+	libresolv.so.2 => /lib/x86_64-linux-gnu/libresolv.so.2 (0x00007f394a4e9000)
+	libmd.so.0 => /lib/x86_64-linux-gnu/libmd.so.0 (0x00007f394a4dc000)
+	libgpg-error.so.0 => /lib/x86_64-linux-gnu/libgpg-error.so.0 (0x00007f394a4b4000)
+	libbrotlicommon.so.1 => /lib/x86_64-linux-gnu/libbrotlicommon.so.1 (0x00007f394a491000)
+
+[2023-02-09 14:44:55] Executing command 'ldd IronInterop.so' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:44:55] 	linux-vdso.so.1 (0x00007ffd5b4a5000)
+	libcef.so => not found
+	libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007f22c3919000)
+	libpthread.so.0 => /lib/x86_64-linux-gnu/libpthread.so.0 (0x00007f22c45d3000)
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f22c36f1000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007f22c45eb000)
+
+[2023-02-09 14:44:55] Executing command 'whereis IronInterop.so' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:44:55] IronInterop.so:
+
+[2023-02-09 14:44:55] Executing command 'apt update' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:44:55] Reading package lists...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock directory /var/lib/apt/lists/
+W: Problem unlinking the file /var/cache/apt/pkgcache.bin - RemoveCaches (13: Permission denied)
+W: Problem unlinking the file /var/cache/apt/srcpkgcache.bin - RemoveCaches (13: Permission denied)
+
+[2023-02-09 14:44:55] Executing command 'apt install -y libc6-dev' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:44:56] 
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+
+[2023-02-09 14:44:56] Executing command 'apt install -y libcups2' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:44:56] 
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+
+[2023-02-09 14:44:56] Executing command 'apt install -y libgtk2.0-0' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:44:56] 
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+
+[2023-02-09 14:44:56] Executing command 'apt install -y libnss3' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:44:56] 
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+
+[2023-02-09 14:44:56] Executing command 'apt install -y libatk-bridge2.0-0' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:44:56] 
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+
+[2023-02-09 14:44:56] Executing command 'apt install -y libx11-xcb1' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:44:56] 
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+
+[2023-02-09 14:44:56] Executing command 'apt install -y libxcb-dri3-0' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:44:56] 
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+
+[2023-02-09 14:44:56] Executing command 'apt install -y libdrm-common' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:44:56] 
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+
+[2023-02-09 14:44:56] Executing command 'apt install -y libgbm1' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:44:56] 
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+
+[2023-02-09 14:44:56] Executing command 'apt install -y libasound2' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:44:56] 
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+
+[2023-02-09 14:44:56] Executing command 'apt install -y libappindicator3-1' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:44:56] 
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+
+[2023-02-09 14:44:56] Executing command 'apt install -y libxrender1' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:44:56] 
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+
+[2023-02-09 14:44:56] Executing command 'apt install -y libfontconfig1' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:44:56] 
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+
+[2023-02-09 14:44:56] Executing command 'apt install -y libxshmfence1' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:44:56] 
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+
+[2023-02-09 14:44:56] Executing command 'apt install -y libva-dev' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:44:56] 
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+
+[2023-02-09 14:44:56] Executing command 'apt install -y libgdiplus' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:44:56] 
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+
+[2023-02-09 14:44:56] Executing command 'apt install -y libva-dev' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:44:56] 
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+
+[2023-02-09 14:44:56] Executing command 'chmod 755 IronCefSubprocess' in '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:44:56] 
+[2023-02-09 14:44:56] Attempting to load Unix library '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/libcef.so'
+[2023-02-09 14:44:56] Unix library '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/libcef.so' load result 94101678595968
+[2023-02-09 14:44:56] Attempting to load Unix library '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/libcef.so'
+[2023-02-09 14:44:56] Unix library '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/libcef.so' load result 94101678595968
+[2023-02-09 14:44:56] Successfully loaded native library 'libcef' from '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/libcef.so'
+[2023-02-09 14:44:56] Attempting to load Unix library '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/IronInterop.so'
+[2023-02-09 14:44:56] Unix library '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/IronInterop.so' load result 94101679279376
+[2023-02-09 14:44:56] Attempting to load Unix library '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/IronInterop.so'
+[2023-02-09 14:44:56] Unix library '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/IronInterop.so' load result 94101679279376
+[2023-02-09 14:44:56] Successfully loaded native library 'IronInterop' from '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/IronInterop.so'
+[2023-02-09 14:44:56] Successfully loaded 'IronInterop' version '2022.11.0.10299' from '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:44:56] Successfully deployed 'IronPdf' using '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:44:56] Initializing Chrome renderer for OS Name: Ubuntu, Identifier: ubuntu, Version: 22.4, VersionName: , Domain: IronPdfEngine, Thread: , Path: /home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend
+[2023-02-09 14:44:56] 14:44:56 (139954943498048): Detected operating system ubuntu
+[2023-02-09 14:44:56] 14:44:56 (139954943498048): ~ Chrome renderer v2022.11.0.10299~
+[2023-02-09 14:44:56] 14:44:56 (139954943498048): IsSingleProcess: 0
+[2023-02-09 14:44:56] 14:44:56 (139954943498048): Creating Cef proxy controller
+[2023-02-09 14:44:56] 14:44:56 (139954943498048): Creating Cef interface
+[2023-02-09 14:44:56] 14:44:56 (139954943498048): Created new lifespan events
+[2023-02-09 14:44:56] 14:44:56 (139954943498048): Created new browser process handler
+[2023-02-09 14:44:56] 14:44:56 (139954943498048): Created new load handler
+[2023-02-09 14:44:56] 14:44:56 (139954943498048): Created new render handler
+[2023-02-09 14:44:56] 14:44:56 (139954943498048): Created new render process handler
+[2023-02-09 14:44:56] 14:44:56 (139954943498048): Created new print handler
+[2023-02-09 14:44:56] 14:44:56 (139954943498048): Created new dev tools handler
+[2023-02-09 14:44:56] 14:44:56 (139954943498048): Created new dev tools registration factory
+[2023-02-09 14:44:56] 14:44:56 (139954943498048): Created new lifespan handler
+[2023-02-09 14:44:56] 14:44:56 (139954943498048): Assigning Cef proxy controller events...
+[2023-02-09 14:44:56] 14:44:56 (139954943498048): Assigning Cef proxy controller stream provider...
+[2023-02-09 14:44:56] 14:44:56 (139954943498048): Initializing Cef proxy controller
+[2023-02-09 14:44:56] 14:44:56 (139954943498048): Using subprocess path '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/IronCefSubprocess'
+[2023-02-09 14:44:56] 14:44:56 (139954943498048): Using framework path '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:44:56] 14:44:56 (139954943498048): Using locales path '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/locales'
+[2023-02-09 14:44:56] 14:44:56 (139954943498048): Using resources path '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native'
+[2023-02-09 14:44:56] 14:44:56 (139954943498048): Process os_name: 'ubuntu'
+[2023-02-09 14:44:56] 14:44:56 (139954943498048): gpu_mode: '0'
+[2023-02-09 14:44:56] 14:44:56 (139954943498048): Launching Main process ' --browser-subprocess-path=/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/IronCefSubprocess --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path=/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native --locales-dir-path=/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/locales --disable-features=BackForwardCache --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-errors --ignore-ssl-errors --ignore-urlfetcher-cert-requests'
+[2023-02-09 14:44:57] 14:44:57 (139954943498048): Process os_name: 'ubuntu'
+[2023-02-09 14:44:57] 14:44:57 (139954943498048): gpu_mode: '0'
+[2023-02-09 14:44:57] 14:44:57 (139954943498048): Launching child process '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/IronCefSubprocess --type=zygote --no-zygote-sandbox --no-sandbox --headless --locales-dir-path=/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/locales --log-severity=disable --resources-dir-path=/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native --lang=en-US --user-data-dir=/tmp --log-file=cef.log --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-errors --ignore-ssl-errors --ignore-urlfetcher-cert-requests'
+[2023-02-09 14:44:57] 14:44:57 (139954943498048): Process os_name: 'ubuntu'
+[2023-02-09 14:44:57] 14:44:57 (139954943498048): gpu_mode: '0'
+[2023-02-09 14:44:57] 14:44:57 (139954943498048): Launching child process '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/IronCefSubprocess --type=zygote --no-sandbox --headless --locales-dir-path=/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/locales --log-severity=disable --resources-dir-path=/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native --lang=en-US --user-data-dir=/tmp --log-file=cef.log --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-errors --ignore-ssl-errors --ignore-urlfetcher-cert-requests'
+[2023-02-09 14:44:57] 14:44:57 (139950933399104): Process os_name: 'ubuntu'
+[2023-02-09 14:44:57] 14:44:57 (139950933399104): gpu_mode: '0'
+[2023-02-09 14:44:57] 14:44:57 (139950933399104): Launching child process '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/IronCefSubprocess --type=gpu-process --no-sandbox --disable-dev-shm-usage --headless --locales-dir-path=/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/locales --log-severity=disable --resources-dir-path=/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native --lang=en-US --user-data-dir=/tmp --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-errors --ignore-ssl-errors --ignore-urlfetcher-cert-requests'
+[2023-02-09 14:44:57] 14:44:57 (139954943498048): Cef initialization succeeded
+[2023-02-09 14:44:57] 14:44:57 (139950933399104): Cef context initialized
+[2023-02-09 14:44:57] 14:44:57 (139950933399104): Registering custom scheme for rendering raw html
+[2023-02-09 14:44:57] 14:44:57 (139950933399104): Successfully registered custom scheme
+[2023-02-09 14:44:57] 14:44:57 (139950933399104): Cef engine initialization complete
+[2023-02-09 14:44:57] 14:44:57 (139950933399104): Process os_name: 'ubuntu'
+[2023-02-09 14:44:57] 14:44:57 (139950933399104): gpu_mode: '0'
+[2023-02-09 14:44:57] 14:44:57 (139950933399104): Launching child process '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/IronCefSubprocess --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-GB --service-sandbox-type=none --ignore-urlfetcher-cert-requests --no-sandbox --disable-dev-shm-usage --ignore-certificate-errors --mute-audio --ignore-certificate-errors --locales-dir-path=/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/locales --log-severity=disable --resources-dir-path=/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native --lang=en-US --user-data-dir=/tmp --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-errors --ignore-ssl-errors --ignore-urlfetcher-cert-requests'
+[2023-02-09 14:44:58] 14:44:58 (139951962306112): Generating pdf from html
+[2023-02-09 14:44:58] 14:44:58 (139951962306112): BROWSER SETTINGS:
+View: 1024x1280
+Enable Javascript: 1
+Username: 
+
+[2023-02-09 14:44:58] 14:44:58 (139951962306112): RENDER SETTINGS:
+Backgrounds: 1, Emulate Screen: 1, Forms: 1, Landscape : 0
+Scale: 100
+Page Size Type: A4
+Custom Page Size: 210x297
+Actual Page Size: 210x297
+Page Margin Type: 3
+Margin Top: 25, Right: 25, Bottom: 25, Left: 25
+Header Html: 
+Footer Html: 
+Javascript: 
+Autosize Screen: 0, PPI: 96
+Title: 
+First Page Number: 1
+Save Path: 
+Render Delay: 500
+Max Header Height: 200, Max Footer Height : 200
+
+[2023-02-09 14:44:58] 14:44:58 (139951962306112): Created new job group 0 for new document
+[2023-02-09 14:44:58] 14:44:58 (139951962306112): Created job group 0
+[2023-02-09 14:44:58] 14:44:58 (139951962306112): Queuing job 0
+[2023-02-09 14:44:58] 14:44:58 (139951962306112): Checking for browser availability (0/30)
+[2023-02-09 14:44:58] 14:44:58 (139951962306112): Creating new browser after waiting 0 seconds
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Created browser id 1, 1 exist
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Browser 1 created and ready for assignment
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Assigning job 0 to browser 1
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Processing job for html content on browser 1
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Process os_name: 'ubuntu'
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): gpu_mode: '0'
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Launching child process '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/IronCefSubprocess --type=renderer --locales-dir-path=/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/locales --log-severity=disable --resources-dir-path=/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native --user-data-dir=/tmp --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-errors --ignore-ssl-errors --ignore-urlfetcher-cert-requests'
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Process os_name: 'ubuntu'
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): gpu_mode: '0'
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Launching child process '/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/IronCefSubprocess --type=renderer --locales-dir-path=/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native/locales --log-severity=disable --resources-dir-path=/home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/IronPdfEngine.2022.11.10577.Linux.x64/runtimes/linux-x64/native --user-data-dir=/tmp --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-errors --ignore-ssl-errors --ignore-urlfetcher-cert-requests'
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Browser 1 loading state changed to 1 for url ''
+[2023-02-09 14:44:58] 14:44:58 (139950695638592): Received resource request from null for http://ironsoftwarescheme.com/ on browser 1 (nav: 1, dl: 0)
+[2023-02-09 14:44:58] 14:44:58 (139950695638592): Resolved resource request using default handler
+[2023-02-09 14:44:58] 14:44:58 (139950695638592): Creating resource handler for custom scheme http using url http://ironsoftwarescheme.com/ on browser 1
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Browser 1 frame 17179869185 started loading http://ironsoftwarescheme.com/
+[2023-02-09 14:44:58] 14:44:58 (139950695638592): Received resource request from http://ironsoftwarescheme.com for file:///home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/style.css on browser 1 (nav: 0, dl: 0)
+[2023-02-09 14:44:58] 14:44:58 (139950695638592): Resolved resource request using custom handler
+[2023-02-09 14:44:58] 14:44:58 (139950695638592): OnBeforeResourceLoad for file:///home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/style.css on browser 1
+[2023-02-09 14:44:58] 14:44:58 (139950695638592): Error while creating stream reader for resource 'file:///home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/style.css' using path 'home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/style.css'
+[2023-02-09 14:44:58] 14:44:58 (139950695638592): Resource load complete for 'file:///home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/style.css' on browser 1
+[2023-02-09 14:44:58] 14:44:58 (139950695638592): Received resource request from http://ironsoftwarescheme.com for file:///home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/script.js on browser 1 (nav: 0, dl: 0)
+[2023-02-09 14:44:58] 14:44:58 (139950695638592): Resolved resource request using custom handler
+[2023-02-09 14:44:58] 14:44:58 (139950695638592): OnBeforeResourceLoad for file:///home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/script.js on browser 1
+[2023-02-09 14:44:58] 14:44:58 (139950695638592): Error while creating stream reader for resource 'file:///home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/script.js' using path 'home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/script.js'
+[2023-02-09 14:44:58] 14:44:58 (139950695638592): Resource load complete for 'file:///home/rapidsoft/Documents/GitHub/ecom-backend/Ecom-Backend/script.js' on browser 1
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Browser process received message: 'OnBrowserCreated'
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Received message from render process with values '' (0)
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Browser 1 frame 17179869185 ended loading http://ironsoftwarescheme.com/
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Browser 1 loading state changed to 0 for url 'http://ironsoftwarescheme.com/'
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Frame loaded for job 0 on browser 1
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Found job 0 in group 0 (of 1 groups)
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Executing dev tools method 'Emulation.setEmulatedMedia' for browser 1
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Executing dev tools method 'Page.getLayoutMetrics' for browser 1
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Received dev tools message on browser 1: '{"id":1,"result":{}}' (size: 20)
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Finished dev tools method on browser 1 (message ID: 1)
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Received dev tools message on browser 1: '{"id":2,"result":{"layoutViewport":{"pageX":0,"pageY":0,"clientWidth":1024,"clientHeight":1280},"visualViewport":{"offsetX":0,"offsetY":0,"pageX":0,"pageY":0,"clientWidth":1024,"clientHeight":1280,"scale":1,"zoom":1},"contentSize":{"x":0,"y":0,"width":1024,"height":1280},"cssLayoutViewport":{"pageX":0,"pageY":0,"clientWidth":1024,"clientHeight":1280},"cssVisualViewport":{"offsetX":0,"offsetY":0,"pageX":0,"pageY":0,"clientWidth":1024,"clientHeight":1280,"scale":1,"zoom":1},"cssContentSize":{"x":0,"y":0,"width":1024,"height":1280}}}' (size: 536)
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Finished dev tools method on browser 1 (message ID: 2)
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Sending DOM-visit process message for browser 1 (job ID: 0)
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Browser process received message: 'OnDomVisited'
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Received message from render process with values 'AQAAAIQAAAAAAAAAAgAAAEQAAAAsAAAAAAAAAAAAAAABAAAAOAAAAAEAAAANAAAAZAAAAG8AAABjAAAAdQAAAG0AAABlAAAAbgAAAHQAAAB0AAAAaQAAAHQAAABsAAAAZQAAAAEAAAAgAAAAAQAAAAcAAABJAAAAbgAAAHYAAABvAAAAaQAAAGMAAABlAAAA' (192)
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Processed html for browser 1
+[2023-02-09 14:44:58] 14:44:58 (139949135349312): Apply render delay for : 500 ms
+[2023-02-09 14:44:58] 14:44:58 (139949135349312): Finished waiting for render delay
+[2023-02-09 14:44:58] 14:44:58 (139949135349312): Scaling content to paper using a factor of 100
+[2023-02-09 14:44:58] 14:44:58 (139949135349312): Printing from browser to '/tmp/pdfRNUZU7'
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Received browser print callback for path '/tmp/pdfRNUZU7' (1)
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Print finished for browser 1(success: 1)
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Resolving job for browser 1 with 29482 bytes
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): PdfDocumentFactory created document 0x7f48d0229670 from 29482 bytes
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Resolving job for browser 1 with 1 page document
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Retrieved document title from html: Invoice
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Retrieve Html title: Invoice
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Generating form fields
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Adding default font for form fields
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Initializing forms for document
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Generating bytes for document 0x7f48d0229670
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Successfully generated 29591 bytes for document 0x7f48d0229670
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): PdfDocumentFactory closed document 0x7f48d0229670
+[2023-02-09 14:44:58] 14:44:58 (139950209091136): Closing browser 1
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Received dev tools message on browser 1: '{"method":"Inspector.detached","params":{"reason":"Render process gone."}}' (size: 74)
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Destroying browser id 1, 0 remain
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Browser 1 closed for job 0
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Found job 0 in group 0 (of 1 groups)
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): Job group 0 finished
+[2023-02-09 14:44:58] 14:44:58 (139950933399104): CefMessagePumpStd::Quit()
+[2023-02-09 14:44:58] 14:44:58 (139951962306112): PdfDocumentFactory created document 0x7f48ec0023d0 from 29591 bytes
+[2023-02-09 14:44:58] 14:44:58 (139951962306112): Storing new document 0
+[2023-02-09 14:44:58] Retrieved license key from inline variable
+[2023-02-09 14:44:59] Error 0x01 while validating license key
+[2023-02-09 14:44:59] No license key detected, applying trial watermark
